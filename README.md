@@ -1,11 +1,10 @@
 # Real Time Bus Tracking Exercise
 ## Description:
-In this exercise we demontsrate control of the DOM (Document Object Model) using JavaScript.  Objects (eye pupils) appear to follow the mouse position.  We accomplish this by rapidly updating the position of the pupils whenever the browser detects mouse movement through the use of the '.onmousemove' JavaScript function.
-There is nothing to click here, only moving eyeballs...enjoy!
+In this exercise we demontsrate several things.  The map is generated using the mapbox API.  Using a recursively called function, we cycle the markers through an array of cordinates that represent all the bus stops between MIT and Harvard when the button labeled 'Show stops between MIT and Harvard' is clicked.  Along with utilizing an API, JavaScripts's 'setTimeout' function is used to perform the recursive call.
 ## How to Run:
-Download all files into a directory, and point your local browser to the index.html file.  Alternatively, point your browser at: https://mechanicalmayhem.github.io/realTimeBus/ to load this example through GitHub.  This file was developed and has only been tested in Google Chrome Version 90.0.4430.93 (Official Build) (64-bit).
+Download all files into a directory, and point your local browser to the index.html file.  Alternatively, point your browser at: https://mechanicalmayhem.github.io/realTimeBus/ to load this example through GitHub.  You must be connected to the internet as well as have a valid access token (in mapanimation.js) for mapbox.  This file was developed and has only been tested in Google Chrome Version 90.0.4430.93 (Official Build) (64-bit).
 ## Roadmap of Future Improvements:
-In the future I would like to add functionality that will blink the eyes on a random timer, adding a more life-like feel to the experience.
+In the future I would like to play around with the different styles available through the mapbox API.  As well, I would like to find a source of real-time geographic data to represent.
 ## License Information:
 MIT License
 
